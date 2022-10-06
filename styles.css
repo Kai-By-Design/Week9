@@ -2,3 +2,83 @@
   background: pink;
   background-size: 80px;
 }
+
+.card {
+  /* gap: 400px; */
+  color: rgb(6, 4, 4);
+  padding: 0.75em;
+  /* height: max-content; */
+  /* align-content: center; */
+  /* text-align: center; */
+  margin: auto;
+  /* text-align: top 50%; */
+  border-radius: 30px;
+  box-shadow: 8px 10px rgba(46, 139, 78, 0.2);
+
+}
+
+.flexbox {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+
+  /* position: absolute;
+  top: 50%;
+  margin: auto; */
+}
+
+.card img {
+
+  /* mix-blend-mode: color-burn; */
+  /* background-color: rgba(50, 20, 0, 0.2); */
+  /* color: rgba(0, 0, 0, 0.2); */
+  /* align-content: center; */
+  /* align: middle; */
+  /* position: absolute; */
+  /* display: flex;
+  vertical-align: bottom;
+  margin: auto;
+  top: 50%; */
+  border-radius: 30px;
+}
+
+.card .card-img-overlay{
+  box-shadow: 20px salmon;
+  position: absolute;
+  /* top: 50%; */
+  /* vertical-align: middle; */
+  /* text-align: center; */
+  background-color: rgba(20, 0, 0, 0.4);
+  color: azure;
+  border-radius: 30px;
+}
+
+.card p {
+  margin: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.card-title {
+  /* padding-left: 3px;
+  padding-right: 3px;
+  text-align: center; */
+  font-size: 3em;
+  font-family: sans-serif;
+  /* min-width: max-content;
+  justify-content: center; */
+}
+
+/* .container  {
+  background-color: gray;
+  padding: 3em;
+} */
+
+.col-md-4 {
+  padding: 1em;
+  /* text-align: center; */
+}
+.col-sm-3 {
+  padding: 0.5em;
+  /* text-align: center; */
+}

@@ -1,0 +1,37 @@
+.navbar {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* body .container-fluid { */
+  /* padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0;
+  margin-left: 0; */
+/* } */
+
+body {
+  cursor: url(images/sides_1.jpeg),auto;
+}
+/* https://upload.wikimedia.org/wikipedia/commons/1/13/Dagwood_Sandwich.svg */
+
+#cover-image {
+  max-height: 40rem;
+}
+
+#byo-sando {
+  gap: 1rem;
+}
+
+#byo-sando > * {
+  /* border: 2px solid; */
+  text-align: center;
+  /* gap: 1rem; */
+}
+
+.row-test > * {
+  /* gap: 2rem; */
+  padding: 20px;
+}
+
